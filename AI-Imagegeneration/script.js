@@ -5,7 +5,7 @@ const imageGallery = document.querySelector(".image-gallery")
 //generating images for a user prompt
 //we will use the openAI API to generate images based on user prompts
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "";
 let isImageGenerated = false;
 
 const updateImageCard = (imgDataArray) => {
