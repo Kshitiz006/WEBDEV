@@ -101,7 +101,7 @@
     flex-wrap: wrap;
     padding: 0 15px;
     max-width: 1250px;
-    margin: 50px 0;
+    margin: 50px auto;
     justify-content: center;
 }
 
@@ -160,10 +160,9 @@
 /* orientation (is the tablet/phone in landscape or portrait mode?) */
 /* resolution */ 
 
-@media screen and (max-width: 760px){
+@media screen  and (max-width: 760px){
     .image-generator h1{
-        font-size: 1.8rem;
-        color: #121212;
+        font-size: rem;
     }
 
     .image-generator p{
@@ -194,6 +193,20 @@
     .generate-form .generate-btn{
         height: 100%;
     } 
+
+    .image-gallery .img-card:not(.loading) .download-btn{
+        display: flex;
+    }
+
+    .image-gallery{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .image-gallery .img-card{
+        width: 100%;        
+    }
 }
 
 
